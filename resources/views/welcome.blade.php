@@ -72,7 +72,8 @@
             </ul>
           </li>-->
           <li><a class="nav-link scrollto" href="#contact">Contactanos</a></li>
-          <li><a class="getstarted scrollto" href="#about">Empezar</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('admin.inicio')}}">Ingresar</a></li>
+          <li><a class="getstarted scrollto" href="#about">Empezar</a></li>          
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
