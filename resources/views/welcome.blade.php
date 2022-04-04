@@ -331,13 +331,12 @@
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                <div class="testimonial-item">                  
+                  <h3>Jhosselyn</h3>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    Yo estoy agradecida con esta información para ayudarnos con esta capacitación. Importando
+aprendemos a tener una mejor ganancia y adquirir a nuestro negocio o vender dentro del país
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -346,13 +345,12 @@
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
+                <div class="testimonial-item">                  
+                  <h3>Jessica</h3>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    Nos dan muchos tips que en muchos cursos que seguí no me han dado, estoy interesada en
+esto de las importaciones, conocí muchas cosas que no sabía cómo programas
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
@@ -361,49 +359,19 @@
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
+                <div class="testimonial-item">                  
+                  <h3>Club -Klever</h3>
                   <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    Recomiendo el asesoramiento porque es personalizado y me ayuda a saber lo que necesito,
+recomiendo el Club -Klever
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
               </div>
             </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
+            
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -541,93 +509,6 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Equipo</h2>
-          <p>Nuestro Equipo</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Adrián Granja</h4>
-                  <span>Gerente General</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
-            <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
-            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
-            <div class="member" data-aos="zoom-in" data-aos-delay="400">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
@@ -653,33 +534,37 @@
 
           <div class="col-lg-4">
             <div class="box featured" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Emprendedor</h3>
-              <h4>$29<span>por mes</span></h4>
+              <h3>Basic Pack</h3>
+              <h4>$97<span>por año</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="bx bx-check"></i> 1 MES DE ACCESO A LA PLATAFORMA DE CAPACITACIÓN i22 Academy | 5 clases en Vivo</li>
+                <li><i class="bx bx-check"></i> 1 PROVEEDORE CERTIFICADO</li>
+                <li><i class="bx bx-check"></i> CALCULADORA DE COSTOS Y GANANCIA</li>
+                <li><i class="bx bx-check"></i> CITA PERSONAL CON ADRIAN (1 HORA)</li>
+                <li><i class="bx bx-check"></i> ASESORIA PERSONAL PERMANENTE</li>
+                <li><i class="bx bx-check"></i> ACCESO AL CLUB DE IMPORTADORES (1 MES)</li>
               </ul>
               <a href="#" class="get-started-btn">Registrarse</a>
             </div>
           </div>
 
           <div class="col-lg-4">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Profesional</h3>
-              <h4>$49<span>por mes</span></h4>
+            <div class="box " data-aos="zoom-in" data-aos-delay="100">
+              <h3>Gold Pack</h3>
+              <h4>$197<span>por año</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="bx bx-check"></i> 1 MES DE ACCESO A LA PLATAFORMA DE CAPACITACIÓN i22 Academy (1 AÑO)</li>
+                <li><i class="bx bx-check"></i> 3 PROVEEDORES CERTIFICADOS</li>
+                <li><i class="bx bx-check"></i> CALCULADORA DE COSTOS Y GANANCIA</li>
+                <li><i class="bx bx-check"></i> CITA PERSONAL CON ADRIAN (1 HORA POR SEMANA)</li>
+                <li><i class="bx bx-check"></i> ASESORIA PERSONAL PARA TU PRIMERA IMPORTACIÓN</li>                
+                <li><i class="bx bx-check"></i> ACCESO AL CLUB DE IMPORTADORES TODO EL AÑO</li>
+                <li><i class="bx bx-check"></i> ASESORIA CONTABLE PARA PYME</li>
               </ul>
               <a href="#" class="get-started-btn">Registrarse</a>
             </div>
           </div>
+
 
         </div>
 
@@ -790,7 +675,7 @@
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
                   <h3>WhatsApp</h3>
-                  <p>0997952501 <br>0987035726</p>
+                  <p>0997952501 <br>0990658022</p>
                 </div>
               </div>
             </div>
