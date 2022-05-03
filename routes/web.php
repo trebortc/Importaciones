@@ -1,7 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\RolController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\AnexoController;
+use App\Http\Controllers\AsesoriaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,11 +22,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/admin', function(){
-    return view('admin.index');
-})->name('admin.inicio');;
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
 
-Route::get('/videos', function(){
-    return view('admin.videos');
-})->name('admin.videos');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::group(['middleware' => ['auth']], function(){
+    Route::resource('roles', RolController::class);
+    Route::resource('users', UserController::class);
+    Route::resource('courses', CourseController::class);
+    Route::resource('anexos', AnexoController::class);
+    Route::resource('asesorias', AsesoriaController::class);
+});
