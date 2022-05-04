@@ -11,7 +11,7 @@
 
   <!-- Favicons -->
   <link href="{{ URL::to('/') }}/assets/img/favicon.png" rel="icon">
-  <link href="{{ URL::to('/') }}/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{ URL::to('/') }}/assets/img/apple-touch-icon.png" rel="apple-touch-icon">  
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -43,7 +43,10 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">importafacilEcuador</a></h1>
+      <h1 class="logo">
+        <img src="{{ URL::to('/') }}/assets/images/logoImportaciones.png" height="200px" />
+        <a href="index.html">importafacilEcuador</a>
+      </h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -678,7 +681,7 @@ recomiendo el Club -Klever
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
                   <h3>Correo</h3>
-                  <p>contacto@importafacilecuador.com <br>contacto@importafacilecuador.com </p>
+                  <p>emily.freire@importafacilecuador.com <br>adrian.granja@importafacilecuador.com </p>
                 </div>
               </div>
               <div class="col-md-6">
