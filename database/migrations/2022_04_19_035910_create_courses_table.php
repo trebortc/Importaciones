@@ -19,6 +19,8 @@ class CreateCoursesTable extends Migration
             $table->string('video');
             $table->text('description');
             $table->enum('tipo', ['Clase', 'Asesoria']);
+            $table->date('fecha_inicio');
+            $table->date('fecha_fin');
             $table->timestamps();
         });
     }

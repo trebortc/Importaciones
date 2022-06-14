@@ -52,6 +52,18 @@
                                             </select>
                                         </div>
                                     </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12">                                                
+                                        <div class="form-group">
+                                            <label for="fecha_inicio">Fecha inicio:</label>
+                                            <input type="date" name="fecha_inicio" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12">                                                
+                                        <div class="form-group">
+                                            <label for="fecha_fin">Fecha fin:</label>
+                                            <input type="date" name="fecha_fin" class="form-control">
+                                        </div>
+                                    </div>
                                     <div class="col-xs-12 col-sm-12 col-md-12"><br/>
                                         <button type="submit" class="btn btn-primary">Guardar</button>
                                     </div>

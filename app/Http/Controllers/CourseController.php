@@ -25,9 +25,13 @@ class CourseController extends Controller
     {
         if(Auth::user()->hasRole('Estudiante'))
         {            
-            $courses = Course::where('Tipo', '=', 'Clase')->get();
-            foreach(Auth::user()->contenidoUsuarios as $contenido){
-                $courses->push($contenido->curso);
+            $courses = Course::where('Tipo', '=', 'Clase')->where('fecha_inicio','<=',date('Y-m-d'))->where('fecha_fin','>=',date('Y-m-d'))->get();
+            foreach(Auth::user()->contenidoUsuarios as $contenido)
+            {
+                if($contenido->curso->fecha_inicio <= date('Y-m-d') &&  date('Y-m-d') <= $contenido->curso->fecha_fin)
+                {
+                    $courses->push($contenido->curso);
+                }                
             }
         }else{
             $courses = Course::all();
