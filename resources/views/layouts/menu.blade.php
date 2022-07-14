@@ -26,7 +26,7 @@
                 <i class=" fas fa-file"></i><span>Material de clases</span>
             </a>        
         @endcan
-        <a class="nav-link" href="https://www.aduana.gob.ec/contents/app/senaemovil/index.jsp#theapp" target="_blank">
+        <a class="nav-link" href="/calculadora" target="_blank">
             <i class=" fas fa-calculator"></i><span>Calculadora</span>
         </a>
         {{-- <a class="nav-link" href="/courses">

@@ -18,7 +18,7 @@ use App\Http\Controllers\AsesoriaController;
 |
 */
 
-Route::get('/inicio', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 

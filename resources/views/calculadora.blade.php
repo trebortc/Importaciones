@@ -127,7 +127,7 @@
                   Costo:
                 </div>
                 <div class="col-md-8 form-group">
-                  <input type="email" class="form-control" name="email" id="txtCosto" placeholder="" required>
+                  <input type="email" class="form-control" name="email" id="txtCosto" placeholder="" required style="text-align: right;">
                 </div>
               </div>
 
@@ -136,7 +136,7 @@
                   Flete:
                 </div>
                 <div class="col-md-8 form-group">
-                  <input type="email" class="form-control" name="email" id="txtFlete" placeholder="" required>
+                  <input type="email" class="form-control" name="email" id="txtFlete" placeholder="" required style="text-align: right;">
                 </div>
               </div>
 
@@ -145,7 +145,7 @@
                   Seguro:
                 </div>
                 <div class="col-md-8 form-group">
-                  <input type="email" class="form-control" name="email" id="txtSeguro" placeholder="" disabled >
+                  <input type="email" class="form-control" name="email" id="txtSeguro" placeholder="" disabled style="text-align: right;">
                 </div>
               </div>
 
@@ -157,7 +157,7 @@
                   IVA 12%:
                 </div>
                 <div class="col-md-8 form-group">
-                  <input type="email" class="form-control" name="email" id="txtIva" placeholder="" disabled >
+                  <input type="email" class="form-control" name="email" id="txtIva" placeholder="" disabled  style="text-align: right;">
                 </div>
               </div>
 
@@ -166,7 +166,7 @@
                   FodInfa 0.05%:
                 </div>
                 <div class="col-md-8 form-group">
-                  <input type="email" class="form-control" name="email" id="txtFodinfa" placeholder="" disabled >
+                  <input type="email" class="form-control" name="email" id="txtFodinfa" placeholder="" disabled style="text-align: right;" >
                 </div>
               </div>
 
@@ -175,7 +175,7 @@
                   Ad Valorem:
                 </div>
                 <div class="col-md-8 form-group">
-                  <input type="email" class="form-control" name="email" id="txtAdVAlorem" placeholder="" >
+                  <input type="email" class="form-control" name="email" id="txtAdVAlorem" placeholder="" style="text-align: right;" >
                 </div>
               </div>
 
@@ -184,7 +184,7 @@
                   Total:
                 </div>
                 <div class="col-md-8 form-group">
-                  <input type="email" class="form-control" name="email" id="txtTotal" placeholder="" disabled >
+                  <input type="email" class="form-control" name="email" id="txtTotal" placeholder="" disabled style="text-align: right;" >
                 </div>
               </div>
 
@@ -195,7 +195,7 @@
                 <div class="sent-message">Tu mensaje fue enviado correctamente. Gracias!</div>
               </div>
               <div class="text-center">
-                <button type="button" onclick="imprimir();">
+                <button class="btn-dark" type="button" onclick="imprimir();">
                   Calcular
                 </button>
               </div>
@@ -276,16 +276,21 @@
       var costo= parseFloat($("#txtCosto").val());
       var flete= parseFloat($("#txtFlete").val());      
       var seguro=(costo+flete);
-      var iva=seguro*0.12;
-      var fodInfa=seguro*0.05;
-      var adValorem=(parseFloat($("#txtAdVAlorem").val())/100)*seguro;      
-      var total=costo+flete+seguro+iva+fodInfa+adValorem;
+      var iva=roundToTwo(seguro*0.12);
+      var fodInfa=roundToTwo(seguro*0.05);
+      var adValorem=roundToTwo((parseFloat($("#txtAdVAlorem").val())/100)*seguro);      
+      var total=roundToTwo(costo+flete+seguro+iva+fodInfa+adValorem);
       $("#txtSeguro").val(seguro);
       $("#txtIva").val(iva);
       $("#txtFodinfa").val(fodInfa);
       //$("#txtAdVAlorem").val(adValorem);
       $("#txtTotal").val(total);
-      alert(seguro);
+      //alert(seguro);
+    }
+
+    function roundToTwo(num)  
+    {
+      return +(Math.round(num + "e+2")  + "e-2");
     }
 
   </script>
