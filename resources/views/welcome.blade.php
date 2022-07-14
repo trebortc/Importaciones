@@ -45,7 +45,7 @@
 
       <h1 class="logo">
         <img src="{{ URL::to('/') }}/assets/images/logoImportaciones.png" height="200px" />
-        <a href="index.html">importafacilEcuador</a>
+        <a style="font-size: 14px" href="index.html">importafacilEcuador</a>
       </h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -75,6 +75,7 @@
             </ul>
           </li>-->
           <li><a class="nav-link scrollto" href="#contact">Contactanos</a></li>
+          <li><a target="_blank" href="https://api.whatsapp.com/send?phone=593990658022&text=Me%20interesa%20m%C3%A1s%20informaci%C3%B3n" class="facebook"><i style="font-size: 25px;" class="bx bxl-whatsapp"></i></a></li>
           <li><a class="getstarted scrollto" href="#about">Empezar</a></li>    
           @if (Route::has('login'))          
             @auth
@@ -301,28 +302,24 @@
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Aprenderás todo sobre importación</a></h4>
-              <p>Es el único espacio en en el país donde aprenderás a hacer importaciones correctamente</p>
-            </div>
+            <img src="assets/img/publicidad/publicidad1.jpg" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Aprenderás las estrategias necesarias</a></h4>
-              <p>Descubre cómo pasar de la improvisación y de conocimientos básicos, a implementar estrategias que llevan detrás una experiencia y grandes resultados</p>
-            </div>
+            <img src="assets/img/publicidad/publicidad2.jpg" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/publicidad/publicidad3.jpg" class="img-fluid" alt="">
+          </div>
+
+          <!--<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4><a href="">Lograrás ser un importador</a></h4>
               <p>Si eres soñador, creador o emprendedor y te embarcas en este camino de conocimiento para entender el mercado chino, definitivamente te convertirás en UN IMPORTADOR.</p>
             </div>
-          </div>
+          </div>-->
 
 
         </div>
@@ -463,6 +460,46 @@ recomiendo el Club -Klever
               <h4>Card 2</h4>
               <p>Card</p>
               <a href="assets/img/portfolio/oficina_banner.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/importacion4.jpeg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/importacion4.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/importacion2.jpeg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/importacion2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/importacion3.jpeg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/importacion3.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/importacion1.jpeg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/importacion1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>

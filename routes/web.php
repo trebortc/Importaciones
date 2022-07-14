@@ -18,8 +18,12 @@ use App\Http\Controllers\AsesoriaController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/inicio', function () {
     return view('welcome');
+});
+
+Route::get('/calculadora', function () {
+    return view('calculadora');
 });
 
 Route::middleware([
