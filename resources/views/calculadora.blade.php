@@ -275,10 +275,10 @@
     {
       var costo= parseFloat($("#txtCosto").val());
       var flete= parseFloat($("#txtFlete").val());      
-      var seguro=(costo+flete);
-      var iva=roundToTwo(seguro*0.12);
-      var fodInfa=roundToTwo(seguro*0.05);
-      var adValorem=roundToTwo((parseFloat($("#txtAdVAlorem").val())/100)*seguro);      
+      var seguro=(costo+flete)*0.01;
+      var iva=roundToTwo(costo+flete+seguro)*0.12;
+      var fodInfa=roundToTwo(costo+flete+seguro)*0.05;
+      var adValorem=roundToTwo((parseFloat($("#txtAdVAlorem").val())/100)*(costo+seguro));      
       var total=roundToTwo(costo+flete+seguro+iva+fodInfa+adValorem);
       $("#txtSeguro").val(seguro);
       $("#txtIva").val(iva);
