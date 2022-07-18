@@ -107,7 +107,12 @@ class AsesoriaController extends Controller
      */
     public function destroy(ContenidoUsuario $asesoria)
     {
-        $course->delete();
-        return redirect()->route('courses.index');
+        $asesoria->delete();
+        return redirect()->route('asesorias.index');
+    }
+
+    public function dashboarda()
+    {    
+        return view('asesorias.dashboard');
     }
 }
